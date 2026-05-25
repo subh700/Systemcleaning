@@ -53,4 +53,9 @@ To preview deletion behavior, use the script's optional switch:
 powershell -ExecutionPolicy Bypass -File .\clean.ps1 -Extensions ".c",".cpp",".skm",".python" -WhatIfOnly
 ```
 
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\clean.ps1 -Extensions ".c",".cpp",".skm",".python"
+```
+
 That lets the script simulate removal with `Remove-Item -WhatIf` instead of actually deleting files.
