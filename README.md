@@ -1,4 +1,4 @@
-# README
+# README- for `clean.ps1`
 
 This PowerShell command runs `clean.ps1` and targets files with these extensions:
 
@@ -64,7 +64,7 @@ That lets the script simulate removal with `Remove-Item -WhatIf` instead of actu
 
 
 
-# README
+# README for `network_on_off.ps1`
 
 This PowerShell command runs `network_on_off.ps1` and targets files with these extensions:
 
